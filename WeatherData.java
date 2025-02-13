@@ -22,9 +22,8 @@ public int longestHeatWave(double threshold)
     int max = 0;
     int current = 0;
     for (double heat : temperatures){
-        System.out.println("heat: " + heat + "   Threshold: " + threshold + "  Result: " + (heat > threshold));
+        //System.out.println("heat: " + heat + "   Threshold: " + threshold + "  Result: " + (heat > threshold));
         if (heat > threshold){
-            //System.out.println("heat: " + heat + "   Threshold: " + threshold + "  Result: " + (heat > threshold));
             current++;
         }
         else current = 0;
